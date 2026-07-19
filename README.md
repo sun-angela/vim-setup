@@ -15,5 +15,5 @@ This repository is mainly a place for me (Angela) to store instructions for my p
 7. Restart VS Code
 8. VIOLA! You can now build LaTeX documents on save or by pressing Space+l+b, open the corresponding PDF of the active LaTeX file using Space+l+v, navigate and manipulate .tex files with Vim, and most importantly, use snippets
 
-# A Note on Vim:
+## A Note on Vim:
 Vim is a text editing software that makes your life better, but it takes some getting used to. If you look up the user guide and decide you hate it, feel free to toggle it off using Vim: Toggle Vim Mode from the command palette. All other facets of this build will still work as normal. However, if you decide that you would like to learn how to use it, https://www.vim-hero.com/ is a great resource for instruction and practice.
