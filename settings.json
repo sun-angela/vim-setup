@@ -1,0 +1,120 @@
+{
+    // LaTeX Workshop configuration
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    // Make the Mathematic extension the default PDF editor
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.view"
+    },
+
+    // Mathematic PDF Viewer preferences
+    "pdf.defaultZoomValue": "page-fit",
+    "pdf.sidebarViewOnLoad": 0,
+
+    // Ask LaTeX Workshop to open the PDF through VS Code itself
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.viewer.command": "/usr/bin/open",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "-a",
+        "Visual Studio Code",
+        "%PDF%"
+    ],
+
+    // Only affects LaTeX Workshop's internal viewer
+    "latex-workshop.view.pdf.invertMode.grayscale": 0.7,
+
+    // General editor configuration
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    "workbench.colorTheme": "Nord Light",
+    "notebook.lineNumbers": "on",
+
+    // Vim configuration
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["s"],
+            "commands": ["leap.find-forwards"]
+        },
+        {
+            "before": ["S"],
+            "commands": ["leap.find-backwards"]
+        },
+        {
+            "before": ["<leader>", "l", "b"],
+            "commands": ["latex-workshop.build"]
+        },
+        {
+            "before": ["<leader>", "l", "v"],
+            "commands": ["latex-workshop.viewExternal"]
+        }
+    ],
+
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.method": "glob",
+
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.synctex.gz",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.nav",
+        "*.vrb",
+        "*.aux"
+    ],
+
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+
+    "latex-workshop.intellisense.file.exclude": [
+        "**/*.aux",
+        "**/*.bbl",
+        "**/*.bcf",
+        "**/*.blg",
+        "**/*.idx",
+        "**/*.ind",
+        "**/*.lof",
+        "**/*.lot",
+        "**/*.out",
+        "**/*.toc",
+        "**/*.acn",
+        "**/*.acr",
+        "**/*.alg",
+        "**/*.glg",
+        "**/*.glo",
+        "**/*.gls",
+        "**/*.ist",
+        "**/*.fls",
+        "**/*.log",
+        "**/*.nav",
+        "**/*.snm",
+        "**/*.fdb_latexmk",
+        "**/*.run.xml",
+        "**/*.synctex.gz"
+    ]
+}
