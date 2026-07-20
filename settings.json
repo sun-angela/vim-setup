@@ -26,7 +26,9 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.minimap.enabled": false,
-    "editor.tabCompletion": "on",
+    "editor.tabCompletion": "off",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
 
     "[python]": {
         "editor.formatOnType": true
@@ -90,6 +92,7 @@
     ],
 
     "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.synctex.afterBuild.enabled": false,
 
     "latex-workshop.intellisense.file.exclude": [
         "**/*.aux",
@@ -116,5 +119,15 @@
         "**/*.fdb_latexmk",
         "**/*.run.xml",
         "**/*.synctex.gz"
+    ],
+
+    "tabout.charactersToTabOutFrom": [
+    { "open": "[", "close": "]" },
+    { "open": "{", "close": "}" },
+    { "open": "(", "close": ")" },
+    { "open": "'", "close": "'" },
+    { "open": "\"", "close": "\"" },
+    { "open": "`", "close": "`" },
+    { "open": "$", "close": "$" }
     ]
 }
