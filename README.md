@@ -21,7 +21,7 @@ This repository is mainly a place for me (Angela) to store instructions for my p
 
 ## How to Navigate Snippets
 
-The sheer amount of snippets contained within latex.hsnips can be overwhelming at first. Let's break down what each part of the snippets mean.
+The sheer amount of snippets contained within latex.hsnips can be overwhelming at first. Let's break down what each part of the snippets means.
 
 ``snippet `(?<!\\)part` "d/dx" iAm``
 
