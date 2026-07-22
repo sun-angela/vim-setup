@@ -24,7 +24,9 @@ This repository is mainly a place for me (Angela) to store instructions for my p
 The sheer amount of snippets contained within latex.hsnips can be overwhelming at first. Let's break down what each part of the snippets mean.
 
 ``snippet `(?<!\\)part` "d/dx" iAm``
+
 ``\frac{\partial ${1:V}}{\partial ${2:x}}$0``
+
 ``endsnippet``
 
 - ``snippet`` delineates the start of a snippet.
