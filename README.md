@@ -62,7 +62,7 @@ To find an existing snippet, the easiest way I've found to do this is to search 
 -  ``cases`` -> ``\begin{cases} , &  \\ , &  \end{cases}``
 -  ``iff`` -> ``\iff``
 -  ``=>`` -> ``\implies``
--  ``%)`` -> ``\left(  \right)`` ( works with any bracket type, like ),],| )
+-  ``%)`` -> ``\left(  \right)``, works with any bracket type, like ),],|
 -  ``inn`` -> ``\in``
 -  ``norm`` -> ``\left\|  \right\|``
 
