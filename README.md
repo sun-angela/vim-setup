@@ -38,5 +38,27 @@ The sheer amount of snippets contained within latex.hsnips can be overwhelming a
 
 To find an existing snippet, the easiest way I've found to do this is to search the document (command-f) for the LaTeX code you're looking for. If that doesn't work, input the file into an AI model and ask it to find it for you. If the functionality you're looking for is not in the file, you can add your own snippet to the file by following the template above. 
 
+### Here's a short guide to some snippets you may find useful, though this list is in no way close to comprehensive.
+
+(In text environment)
+- ``lm`` -> ``$ $``
+- ``eqs`` -> ``\begin{equation*} \end{equation*}``
+
+(In math/equation environment)
+- ``//`` -> ``\frac{}{}``
+- ``1/2`` -> ``\frac{1}{2}``, works for any numbers
+- ``sr`` -> ``^{2}``
+- ``hsq`` -> ``\sqrt{}``
+- ``pow`` -> ``^{}``
+- ``td`` -> ``_{}``
+- ``axx`` -> ``a_x``, works for any letters or numbers
+-  ``sum`` -> ``\sum_{i = 1}^{n}``
+-  ``dint`` -> ``$\int_{-\infty}^{\infty}  \mathrm{d}x$``
+-  ``ali`` -> ``\begin{align} \end{align}``
+-  ``ae`` -> ``&=``
+-  ``nl`` -> new line, so `` \\``
+-  ``RR``, ``NN``, ``ZZ`` -> ``\mathbb{R}``, ``mathbb{N}``, ``mathbb{Z}``
+-  ``oo`` -> ``\infty``
+
 ## A Note on Vim:
 Vim is a text editing software that makes your life better, but it takes some getting used to. If you look up the user guide and decide you hate it, feel free to toggle it off using Vim: Toggle Vim Mode from the command palette, or, if you want to stop it from triggering on startup, disable or uninstall the extension entirely. All other facets of this build will still work as normal, except for the Space+l+v and Space+l+b stuff. However, if you decide that you would like to learn how to use it, https://www.vim-hero.com/ is a great resource for instruction and practice.
