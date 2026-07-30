@@ -30,9 +30,9 @@ The sheer amount of snippets contained within latex.hsnips can be overwhelming a
 ``endsnippet``
 
 - ``snippet`` delineates the start of a snippet.
-- The word that immediately follows (in this case, `(?<!\\)part`), is a regular expression (regex) for what you must type in order to trigger the snippet. In this case, it dictates that you must type ``part`` _without_ preceding it with a backslash.
-- The following word in quotes ("d/dx") is just what you decide to name the snippet and has no impact on functionality whatsoever.
-- ``iAm`` refers to the CONTEXT in which the snippet must be called in order for it to trigger. In this case, it must be called within an equation-type environment. Calling it outside of this environment will not do anything. You can also specify ``wA`` for the snippet to trigger in a text-type environment.
+- The expression that immediately follows (in this case, `(?<!\\)part`), is a regular expression (regex) for what you must type in order to trigger the snippet. In this case, it dictates that you must type ``part`` _without_ preceding it with a backslash
+- The following word in quotes ("d/dx") is just what you decide to name the snippet and has no impact on functionality whatsoever
+- ``iAm`` refers to the CONTEXT in which the snippet must be called in order for it to trigger. In this case, it must be called within an equation-type environment. Calling it outside of this environment will not do anything. You can also specify ``wA`` for the snippet to trigger in a text-type environment
 - The next line specifies what the snippet expands out to. In this case, it becomes a partial fraction. Immediately after expansion is triggered, your cursor will land on the first ${1:} section. You can change the contents of this section (AKA change V to something else), but you don't have to. Pressing tab will then transport your cursor to the next ${2:} section. Again, you can choose to change the contents if you'd like. Pressing tab again will bring you to the position indicated by $0.
 - ``endsnippet`` delineates the end of the snippet
 
@@ -62,7 +62,7 @@ To find an existing snippet, the easiest way I've found to do this is to search 
 -  ``cases`` -> ``\begin{cases} , &  \\ , &  \end{cases}``
 -  ``iff`` -> ``\iff``
 -  ``=>`` -> ``\implies``
--  %) -> \left(  \right) ( works with any bracket type, like ),],| )
+-  ``%)`` -> ``\left(  \right)`` ( works with any bracket type, like ),],| )
 -  ``inn`` -> ``\in``
 -  ``norm`` -> ``\left\|  \right\|``
 
