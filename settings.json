@@ -34,7 +34,7 @@
         "editor.formatOnType": true
     },
 
-    "workbench.colorTheme": "Nord Light",
+    # "workbench.colorTheme": "Nord Light",
     "notebook.lineNumbers": "on",
 
     // Vim configuration
