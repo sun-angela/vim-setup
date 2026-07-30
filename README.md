@@ -60,5 +60,7 @@ To find an existing snippet, the easiest way I've found to do this is to search 
 -  ``RR``, ``NN``, ``ZZ`` -> ``\mathbb{R}``, ``mathbb{N}``, ``mathbb{Z}``
 -  ``oo`` -> ``\infty``
 
+There are also some useful "snippets" I use that are vestiges of an old system that's dependent on **keybindings.json** rather than **latex.hsnips**. Namely, if you type ``template`` and hit enter, you'll get my default homework template. If you type ``problem`` and hit enter, you'll get the template for a new problem solution. You can change the formatting of these templates through **keybindings.json** (not **latex.hsnips**).
+
 ## A Note on Vim:
 Vim is a text editing software that makes your life better, but it takes some getting used to. If you look up the user guide and decide you hate it, feel free to toggle it off using Vim: Toggle Vim Mode from the command palette, or, if you want to stop it from triggering on startup, disable or uninstall the extension entirely. All other facets of this build will still work as normal, except for the Space+l+v and Space+l+b stuff. However, if you decide that you would like to learn how to use it, https://www.vim-hero.com/ is a great resource for instruction and practice.
