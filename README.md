@@ -65,6 +65,7 @@ To find an existing snippet, the easiest way I've found to do this is to search 
 -  ``%)`` -> ``\left(  \right)``, works with any bracket type, like ),],|
 -  ``inn`` -> ``\in``
 -  ``norm`` -> ``\left\|  \right\|``
+-  ``set`` -> ``\{ \}``
 
 There are also some useful "snippets" I use that are vestiges of an old system dependent on **keybindings.json** rather than **latex.hsnips**. Namely, if you type ``template`` and hit enter, you'll get my default homework template. If you type ``problem`` and hit enter, you'll get the template for a new problem solution. You can change the formatting of these templates through **keybindings.json** (not **latex.hsnips**). 
 
