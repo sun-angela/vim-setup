@@ -7,7 +7,7 @@ This repository is mainly a place for me (Angela) to store instructions for my p
 
 ## Setup
 1. Download VS Code
-2. From VS Code, download the extensions for VSCodeVim, Tabout, and PDF Viewer by Mathematic Inc. using the Extensions tab on the left (the icon looks like a Windows logo that's a little drunk)
+2. From VS Code, download the extensions for Tabout, and PDF Viewer by Mathematic Inc. using the Extensions tab on the left (the icon looks like a Windows logo that's a little drunk)
 3. Open **Preferences: Open User Settings** from the command palette (command-shift-p). This will open up your settings.json file
 4. Copy the contents in the **settings.json** file elsewhere so that you can easily restore the file if you decide you hate this setup
 5. Delete all content in the **settings.json** file and copy-paste the raw json code from **settings.json** in this repository
