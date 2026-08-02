@@ -1,5 +1,5 @@
 # latex-setup
-Writing fast LaTeX documents using Vim and Snippets.
+Writing fast LaTeX documents using Snippets.
 
 ## Introduction
 
