@@ -1,9 +1,9 @@
-# vim-setup
+# latex-setup
 Writing fast LaTeX documents using Vim and Snippets.
 
 ## Introduction
 
-This repository is mainly a place for me (Angela) to store instructions for my personal VS-Code/Vim setup so that I don't forget if I ever need to rebuild it. Disclaimer: I am not a programmer by trade. None of this work is my own. I am purely and directly using the work of OrangeX4 (https://github.com/OrangeX4), whose code originates from the genius Gilles Castel (https://github.com/gillescastel/).
+This repository is mainly a place for me (Angela) to store instructions for my personal VS-Code/LaTeX setup so that I don't forget if I ever need to rebuild it. Disclaimer: I am not a programmer by trade. None of this work is my own. I am purely and directly using the work of OrangeX4 (https://github.com/OrangeX4), whose code originates from the genius Gilles Castel (https://github.com/gillescastel/).
 
 ## Setup
 1. Download VS Code
@@ -17,7 +17,7 @@ This repository is mainly a place for me (Angela) to store instructions for my p
 9. Open the command palette again (command-shift-p) and open **HyperSnips: Open Snippets Directory**. This will open a folder on your computer
 10. Download and transfer the **latex.hsnips** file from this repository into the folder. You can always delete this file later if you decide you hate this setup
 11. Restart VS Code
-12. VIOLA! You can now build LaTeX documents on save or by pressing Space+l+b, tab out of bracket/quote delimeters, open the corresponding PDF of the active LaTeX file using Space+l+v, navigate and manipulate .tex files with Vim, and most importantly, use snippets
+12. VIOLA! You can now build LaTeX documents on save, tab out of bracket/quote delimeters, and most importantly, use snippets
 
 ## How to Navigate Snippets
 
@@ -68,6 +68,3 @@ To find an existing snippet, the easiest way I've found to do this is to search 
 -  ``set`` -> ``\{ \}``
 
 There are also some useful "snippets" I use that are vestiges of an old system dependent on **keybindings.json** rather than **latex.hsnips**. Namely, if you type ``template`` and hit enter, you'll get my default homework template. If you type ``problem`` and hit enter, you'll get the template for a new problem solution. You can change the formatting of these templates through **keybindings.json** (not **latex.hsnips**). 
-
-## A Note on Vim:
-Vim is a text editing software that makes your life better, but it takes some getting used to. If you look up the user guide and decide you hate it, feel free to toggle it off using Vim: Toggle Vim Mode from the command palette, or, if you want to stop it from triggering on startup, disable or uninstall the extension entirely. All other facets of this build will still work as normal, except for the Space+l+v and Space+l+b stuff. However, if you decide that you would like to learn how to use it, https://www.vim-hero.com/ is a great resource for instruction and practice.
